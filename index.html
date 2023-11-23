@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- -----------Navbar------------ -->
+
+    <nav id="desktop-nav">
+        <div class="logo">Lokesh Singh</div>
+        <div>
+            <ul class="navlinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">
+            Lokesh Singh
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span> </span>
+                <span> </span>
+                <span> </span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ----------Profile ---------- -->
+
+    <section id="profile">
+        <div class="profile-pic">
+            <img src="./image.jpg" alt="">
+        </div>
+        <div class="profile-text">
+            <div class="b1">
+                <p class="p1">Hii there , I'm</p>
+                <h1 class="h1">Lokesh Singh</h1>
+                <p class="p2">Front-End Developer</p>
+            </div>
+            <div class="b2">
+                <a href="#"><button class="btn1">Download CV</button></a>
+                <a href="#"><button class="btn2">Contact Me</button></a>
+            </div>
+            <div class="b3">
+                <a href="#"><img src="./Linkedin_icon.png" alt=""></a>
+                <a href="#"><img src="./github_icon.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------- ABOUT --------------- -->
+
+    <section id="about">
+        <div class="about-heading">
+            <h1 class="about-heading-h1">About Me</h1>
+            <p class="about-heading-p1"><b>Get to know more</b></p>
+        </div>
+        <div class="about-info">
+            <div class="about-info-pic">
+                <img src="./pic.jpg" alt="">
+            </div>
+            <div class="about-info-text">
+                <div class="about-text1">
+                    <div class="about-text1-box1">
+                        <i class="fa-solid fa-medal"></i>
+                        <h1>Experience</h1>
+                        <p>4+ Months of training of</p>
+                        <p>Front-End Development</p>
+                    </div>
+                    <div class="about-text1-box2">
+                        <i class="fa-solid fa-brain"></i>
+                        <h1>Education</h1>
+                        <p>Bachelors of Technology (BTech)</p>
+                        <p>ITBasket Front-End Specialist</p>
+                    </div>
+                </div>
+                <div class="about-text2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis soluta rerum officia doloribus
+                        quod illum, maiores hic delectus alias natus eos modi quam nostrum sit recusandae accusamus
+                        earum beatae libero facilis laboriosam! Nemo eligendi eius explicabo!</p>
+                </div>
+
+            </div>
+        </div>
+        <div id="contact">
+            <div class="contact-info">
+                <div class="contact-text">
+                    <p class="contact-text-p"><b>Get in Touch</b></p>
+                    <h1 class="contact-text-h1">Contact Me</h1>
+                </div>
+                <div class="contact-email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p><b>ls.23singh@gmail.com</b></p>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p><b>LinkedIn</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <ul class="navlinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
